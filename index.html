@@ -24,23 +24,40 @@
 	<script src="./assets/scripts.js"></script>
 
 	<script type="application/ld+json">
-		{
-		  "@context": "https://schema.org",
-		  "@type": "Person",
-		  "name": "Nina Carducci",
+		[
+			{
+				"@context": "https://schema.org",
+				"@type": "Person",
+				"name": "Nina Carducci",
+	
+				"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"streetAddress": "68 avenue Alsace-Lorraine"
+				},
+	
+				"image": "./assets/images/nina-resized.webp",
+				"jobTitle": "Photographe",
+				"telephone": "05 56 67 78 89",
+				"url": "https://nina-carducci-photographe.com/"
+			},
+			{
+				"@context": "http://schema.org",
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek":[
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday"
+				],
+				"opens": "10:00",
+				"closes": "19:00"
+		 	 }
+		]
 
-		  "address": {
-			"@type": "PostalAddress",
-			"addressLocality": "Bordeaux",
-			"postalCode": "33200",
-			"streetAddress": "68 avenue Alsace-Lorraine"
-		  },
-
-		  "image": "./assets/images/nina-resized.webp",
-		  "jobTitle": "Photographe",
-		  "telephone": "05 56 67 78 89",
-		  "url": "https://nina-carducci-photographe.com/"
-		}
+		
 		</script>
 
 </head>
