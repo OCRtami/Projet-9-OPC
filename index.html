@@ -8,13 +8,12 @@
 
 	<title>Nina Carducci - Photographe</title>
 
-	<!-- Référencement Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Nina Carducci - Photographe" />
 	<meta name="twitter:description" content="Photographe professionnelle à Bordeaux, vous propose de saisir ces merveilleux moments d'une vie au travers de son regard et sa technique." />
 	<meta name="twitter:image" content="https://ocrtami.github.io/Projet-9-OPC/assets/images/nina.webp" />
 	<meta name="twitter:url" content="https://ocrtami.github.io/Projet-9-OPC" />
-	<!-- Référencement Autre -->
+
 	<meta name="og:title" content="Nina Carducci - Photographe" />
 	<meta property="og:image" content="https://ocrtami.github.io/Projet-9-OPC/assets/images/nina.webp">
 	<meta property="og:url" content="https://ocrtami.github.io/Projet-9-OPC">
@@ -38,41 +37,38 @@
 	<script  src="./assets/scripts.js"></script>
 
 	<script type="application/ld+json">
-		[
-			{
-				"@context": "https://schema.org",
-				"@type": "Person",
-				"name": "Nina Carducci",
-	
-				"address": {
-				"@type": "PostalAddress",
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci",
+			"image": "./assets/images/nina.webp",
+			"jobTitle": "Photographe",
+			"telephone": "05 56 67 78 89",
+			"url": "https://nina-carducci-photographe.com/",
+
+			"address": {
+              	"addressCountry": "Fr",
+             	"addressRegion": "Nouvelle-Aquitaine",
 				"addressLocality": "Bordeaux",
 				"postalCode": "33200",
 				"streetAddress": "68 avenue Alsace-Lorraine"
-				},
-	
-				"image": "./assets/images/nina.webp",
-				"jobTitle": "Photographe",
-				"telephone": "05 56 67 78 89",
-				"url": "https://nina-carducci-photographe.com/"
 			},
-			{
-				"@context": "http://schema.org",
-				"@type": "OpeningHoursSpecification",
-				"dayOfWeek":[
+
+			"dayOfWeek":[
 				"Monday",
 				"Tuesday",
 				"Wednesday",
 				"Thursday",
 				"Friday"
-				],
-				"opens": "10:00",
-				"closes": "19:00"
-		 	 }
-		]
-
-		
-		</script>
+			],
+			
+			"opens": "10:00",
+			"closes": "19:00",
+			"priceRange": "50€ - 400€",
+			"price": [50, 350, 400],
+			"priceCurrency": "EUR"
+		}
+	</script> 
 
 </head>
 
